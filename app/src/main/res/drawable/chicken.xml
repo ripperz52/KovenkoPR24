@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Гребешок -->
+    <path android:fillColor="#D50000" android:pathData="M38,24 C34,12 46,14 48,22 C52,10 62,12 58,24 Z"/>
+
+    <!-- Тело -->
+    <path android:fillColor="#FF8F00" android:pathData="M26,48 C26,26 74,26 74,48 C74,78 26,78 26,48 Z"/>
+    <!-- Крылья -->
+    <path android:fillColor="#FF6F00" android:pathData="M20,52 C12,56 20,72 30,68 Z M80,52 C88,56 80,72 70,68 Z"/>
+
+    <!-- Клюв -->
+    <path android:fillColor="#FFC107" android:pathData="M42,46 L58,46 L50,56 Z"/>
+    <!-- Бородка -->
+    <path android:fillColor="#D50000" android:pathData="M46,56 C44,64 50,65 50,58 C50,65 56,64 54,56 Z"/>
+
+    <!-- Глаза -->
+    <path android:fillColor="#212121" android:pathData="M38,40 A5,5 0 1,1 38,39.9 M62,40 A5,5 0 1,1 62,39.9"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M36,38 A2,2 0 1,1 36,37.9 M60,38 A2,2 0 1,1 60,37.9"/>
+
+    <!-- Лапки -->
+    <path android:fillColor="#FFC107" android:pathData="M38,76 L34,90 M34,90 L28,90 M34,90 L40,90 M62,76 L66,90 M66,90 L60,90 M66,90 L72,90"
+        android:strokeColor="#FFC107" android:strokeWidth="3" android:strokeLineCap="round"/>
+</vector>
